@@ -73,7 +73,7 @@ body {
 header {
   width: 290px;
   height: 100vh;
-  background-color: var(--color-header-bg);
+  background-color: #815c2a;
   padding: 25px 15px;
   display: flex;
   flex-direction: column;
