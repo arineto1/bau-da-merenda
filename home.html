@@ -19,7 +19,7 @@
   <body>
     <div id="pai">
       <header>
-        <img src="assets/imagens/nomebau.png" alt="" style="width: 80%;">
+        <img src="assets/imagens/nomebau.png" alt="" style="width: 80%" />
         <div class="header-title-container">
           <h2 class="menu-text" style="margin: 0">Menu</h2>
         </div>
@@ -28,7 +28,16 @@
           >Descrição do projeto</a
         >
         <a class="minecraft-button" href="#tutorial">Tutorial de uso</a>
+        <a class="minecraft-button" href="#teste">Teste do protótipo</a>
         <a class="minecraft-button" href="#equipe">Nossa equipe</a>
+        <div class="header-title-container">
+          <h2
+            class="menu-text"
+            style="margin: 0; font-size: 18px; text-align: center"
+          >
+            Contato: equipetrinova@gmail.com
+          </h2>
+        </div>
       </header>
 
       <div id="direita">
@@ -58,10 +67,7 @@
                   controls
                   poster="assets/images/placeholder-problema.jpg"
                 >
-                  <source
-                    src="assets/videos/bau1.mp4"
-                    type="video/mp4"
-                  />
+                  <source src="assets/videos/bau1.mp4" type="video/mp4" />
                   Seu navegador não suporta a tag de vídeo.
                 </video>
               </div>
@@ -94,10 +100,7 @@
                   controls
                   poster="assets/images/placeholder-projeto.jpg"
                 >
-                  <source
-                    src="assets/videos/bau2.mp4"
-                    type="video/mp4"
-                  />
+                  <source src="assets/videos/bau2.mp4" type="video/mp4" />
                   Seu navegador não suporta a tag de vídeo.
                 </video>
               </div>
@@ -132,8 +135,43 @@
                   controls
                   poster="assets/images/placeholder-tutorial.jpg"
                 >
+                  <source src="assets/videos/bau3.mp4" type="video/mp4" />
+                  Seu navegador não suporta a tag de vídeo.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <div class="projeto" id="teste">
+            <h3>Primeiro Teste do Protótipo</h3>
+            <p style="text-align: justify; margin-left: 2vw">
+              Primeiro teste do Baú da Merenda! Em 23 de maio de 2025, o
+              protótipo foi testado pela turma do 1º ano do Ensino Médio
+              Integrado ao Informática para Internet. Assista e veja o Baú em
+              uso!
+            </p>
+            <div class="video-section">
+              <button
+                class="video-trigger-button btn-style-tutorial"
+                data-video-target="videoTeste"
+                style="background-color: rgb(61, 50, 161); color: white"
+              >
+                <span class="icon">▶️</span>
+                <span class="text">Assista e veja o Baú em uso!</span>
+              </button>
+              <div
+                class="minecraft-video-player-wrapper"
+                id="videoTestePlayerWrapper"
+                style="display: none"
+              >
+                <video
+                  id="videoTeste"
+                  class="minecraft-video-player"
+                  controls
+                  poster="assets/images/placeholder-teste.jpg"
+                >
                   <source
-                    src="assets/videos/bau3.mp4"
+                    src="assets/videos/WhatsApp Video 2025-05-13 at 19.07.57.mp4"
                     type="video/mp4"
                   />
                   Seu navegador não suporta a tag de vídeo.
@@ -168,10 +206,7 @@
                   controls
                   poster="assets/images/placeholder-equipe.jpg"
                 >
-                  <source
-                    src="assets/videos/bau4.mp4"
-                    type="video/mp4"
-                  />
+                  <source src="assets/videos/bau4.mp4" type="video/mp4" />
                   Seu navegador não suporta a tag de vídeo.
                 </video>
               </div>
